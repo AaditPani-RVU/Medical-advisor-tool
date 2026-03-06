@@ -1,0 +1,267 @@
+# ============================================================
+# Verified Health Content — Triage Rules (Seek Care Guidance)
+# ============================================================
+# RULE-BASED ONLY — No LLM involvement in urgency decisions.
+# These rules are derived from trusted public health sources.
+# Output is one of: emergency | soon | routine
+#
+# DISCLAIMER: This is NOT medical advice. This is a navigation
+# tool to help decide when/where to seek professional care.
+
+disclaimer: >
+  This tool is for educational guidance only. It does NOT provide
+  medical advice, diagnosis, or treatment. If you are experiencing
+  a medical emergency, call your local emergency number immediately.
+
+# ── Universal red-flag questions (always asked first) ──────
+universal_red_flags:
+  questions:
+    - id: u1
+      text: "Is there difficulty breathing or shortness of breath?"
+    - id: u2
+      text: "Is there chest pain or pressure?"
+    - id: u3
+      text: "Is there sudden confusion, trouble speaking, or understanding?"
+    - id: u4
+      text: "Is there sudden severe headache with no known cause?"
+    - id: u5
+      text: "Is there uncontrolled or severe bleeding?"
+    - id: u6
+      text: "Has there been fainting or loss of consciousness?"
+    - id: u7
+      text: "Is there a suspected allergic reaction (throat swelling, trouble breathing)?"
+  trigger: any_yes
+  output:
+    urgency: emergency
+    message: >
+      Based on your answers, this situation may require urgent or
+      emergency care. Please seek immediate medical attention or
+      call your local emergency number.
+    source_refs:
+      - label: "NHS — When to call 999"
+        url: "https://www.nhs.uk/nhs-services/urgent-and-emergency-care-services/when-to-call-999/"
+      - label: "CDC — Warning Signs"
+        url: "https://www.cdc.gov/heartdisease/warning_signs.htm"
+
+# ── Topic-specific rule sets ──────────────────────────────
+topic_rules:
+  - topic: heart-health
+    questions:
+      - id: h1
+        text: "Is there persistent chest discomfort lasting more than a few minutes?"
+      - id: h2
+        text: "Is there pain spreading to the arm, jaw, neck, or back?"
+      - id: h3
+        text: "Is there unusual fatigue or dizziness with exertion?"
+      - id: h4
+        text: "Has there been a recent episode of rapid or irregular heartbeat?"
+    red_flags: [h1, h2]
+    outputs:
+      red_flag_hit:
+        urgency: emergency
+        message: >
+          These symptoms may need urgent evaluation. Please seek
+          emergency medical attention.
+        source_refs:
+          - label: "AHA — Heart Attack Warning Signs"
+            url: "https://www.heart.org/en/health-topics/heart-attack/warning-signs-of-a-heart-attack"
+      some_yes:
+        urgency: soon
+        message: >
+          Consider scheduling an appointment with a healthcare
+          provider within the next few days to discuss these concerns.
+        source_refs:
+          - label: "Mayo Clinic — When to see a doctor"
+            url: "https://www.mayoclinic.org/diseases-conditions/heart-disease/symptoms-causes/syc-20353118"
+      all_no:
+        urgency: routine
+        message: >
+          Based on your answers, routine monitoring may be appropriate.
+          Consider discussing at your next regular check-up.
+
+  - topic: respiratory
+    questions:
+      - id: r1
+        text: "Is there a cough lasting more than 3 weeks?"
+      - id: r2
+        text: "Is there coughing up blood?"
+      - id: r3
+        text: "Is there wheezing that does not improve with rest?"
+      - id: r4
+        text: "Is there a fever above 103°F (39.4°C)?"
+    red_flags: [r2, r4]
+    outputs:
+      red_flag_hit:
+        urgency: emergency
+        message: >
+          These symptoms may need urgent evaluation. Please seek
+          prompt medical attention.
+        source_refs:
+          - label: "NHS — Coughing up blood"
+            url: "https://www.nhs.uk/conditions/coughing-up-blood/"
+      some_yes:
+        urgency: soon
+        message: >
+          Consider seeing a healthcare provider within the next
+          few days to discuss these respiratory concerns.
+        source_refs:
+          - label: "CDC — When to Seek Care for Respiratory Symptoms"
+            url: "https://www.cdc.gov/flu/symptoms/symptoms.htm"
+      all_no:
+        urgency: routine
+        message: >
+          Based on your answers, routine monitoring may be appropriate.
+
+  - topic: mental-health
+    questions:
+      - id: m1
+        text: "Are there thoughts of self-harm or harming others?"
+      - id: m2
+        text: "Is there a feeling of being unable to cope with daily activities?"
+      - id: m3
+        text: "Has there been a significant change in sleep or appetite lasting more than 2 weeks?"
+      - id: m4
+        text: "Is there increased use of alcohol or substances to cope?"
+    red_flags: [m1]
+    outputs:
+      red_flag_hit:
+        urgency: emergency
+        message: >
+          If there are thoughts of self-harm, please reach out to
+          a crisis helpline immediately. In the US, call or text 988
+          (Suicide & Crisis Lifeline). In the UK, call 116 123 (Samaritans).
+        source_refs:
+          - label: "988 Suicide & Crisis Lifeline"
+            url: "https://988lifeline.org/"
+          - label: "NHS — Mental health crisis"
+            url: "https://www.nhs.uk/mental-health/feelings-symptoms-behaviours/behaviours/help-for-suicidal-thoughts/"
+      some_yes:
+        urgency: soon
+        message: >
+          Consider reaching out to a mental health professional
+          within the next few days.
+        source_refs:
+          - label: "NIMH — Help for Mental Illnesses"
+            url: "https://www.nimh.nih.gov/health/find-help"
+      all_no:
+        urgency: routine
+        message: >
+          Based on your answers, routine monitoring may be appropriate.
+          Consider discussing at your next regular check-up.
+
+  - topic: digestive-health
+    questions:
+      - id: d1
+        text: "Is there severe abdominal pain?"
+      - id: d2
+        text: "Is there blood in stool or vomit?"
+      - id: d3
+        text: "Has there been persistent vomiting or inability to keep fluids down for more than 24 hours?"
+      - id: d4
+        text: "Has there been unexplained weight loss?"
+    red_flags: [d1, d2]
+    outputs:
+      red_flag_hit:
+        urgency: emergency
+        message: >
+          These symptoms may need urgent evaluation. Please seek
+          prompt medical attention.
+        source_refs:
+          - label: "Mayo Clinic — Abdominal pain"
+            url: "https://www.mayoclinic.org/symptoms/abdominal-pain/basics/when-to-see-doctor/sym-20050728"
+      some_yes:
+        urgency: soon
+        message: >
+          Consider seeing a healthcare provider within the next
+          few days to discuss these digestive concerns.
+      all_no:
+        urgency: routine
+        message: >
+          Based on your answers, routine monitoring may be appropriate.
+
+  - topic: skin-conditions
+    questions:
+      - id: s1
+        text: "Is there a rapidly expanding rash with fever?"
+      - id: s2
+        text: "Is there a mole that has changed in size, shape, or color?"
+      - id: s3
+        text: "Is there a wound that shows signs of infection (redness, warmth, swelling, pus)?"
+      - id: s4
+        text: "Is there severe itching that disrupts daily activities or sleep?"
+    red_flags: [s1]
+    outputs:
+      red_flag_hit:
+        urgency: emergency
+        message: >
+          A rapidly spreading rash with fever may need urgent
+          evaluation. Please seek prompt medical attention.
+        source_refs:
+          - label: "NHS — Rash with fever"
+            url: "https://www.nhs.uk/conditions/rash/"
+      some_yes:
+        urgency: soon
+        message: >
+          Consider seeing a healthcare provider within the next
+          few days to discuss these skin concerns.
+        source_refs:
+          - label: "AAD — When to see a dermatologist"
+            url: "https://www.aad.org/public"
+      all_no:
+        urgency: routine
+        message: >
+          Based on your answers, routine monitoring may be appropriate.
+
+  - topic: diabetes
+    questions:
+      - id: db1
+        text: "Is there excessive thirst and frequent urination?"
+      - id: db2
+        text: "Is there fruity-smelling breath or nausea/vomiting with known diabetes?"
+      - id: db3
+        text: "Is there confusion or drowsiness with known diabetes?"
+      - id: db4
+        text: "Is there a wound on the foot or leg that is not healing?"
+    red_flags: [db2, db3]
+    outputs:
+      red_flag_hit:
+        urgency: emergency
+        message: >
+          These symptoms may indicate a need for urgent evaluation.
+          Please seek prompt medical attention.
+        source_refs:
+          - label: "ADA — DKA (Diabetic Ketoacidosis)"
+            url: "https://diabetes.org/diabetes/dka-ketoacidosis-ketones"
+      some_yes:
+        urgency: soon
+        message: >
+          Consider seeing a healthcare provider within the next
+          few days to discuss these concerns.
+      all_no:
+        urgency: routine
+        message: >
+          Based on your answers, routine monitoring may be appropriate.
+
+  # Fallback / general
+  - topic: general
+    questions:
+      - id: g1
+        text: "Has the concern been present for more than 2 weeks?"
+      - id: g2
+        text: "Is the concern getting worse over time?"
+      - id: g3
+        text: "Is it interfering with daily activities?"
+      - id: g4
+        text: "Are over-the-counter measures not helping?"
+    red_flags: []
+    outputs:
+      some_yes:
+        urgency: soon
+        message: >
+          Consider scheduling an appointment with a healthcare
+          provider to discuss these concerns.
+      all_no:
+        urgency: routine
+        message: >
+          Based on your answers, routine monitoring may be appropriate.
+          Consider discussing at your next regular check-up.

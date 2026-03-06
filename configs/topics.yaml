@@ -1,0 +1,55 @@
+# ============================================================
+# Verified Health Content — Topic Taxonomy
+# ============================================================
+# All content tags must come from this fixed list.
+# The LLM tagger is constrained to only assign tags from here.
+
+topics:
+  # ── Core Health Areas ────────────────────────────────────
+  - heart-health
+  - diabetes
+  - respiratory
+  - mental-health
+  - nutrition
+  - exercise-fitness
+  - sleep
+  - skin-conditions
+  - digestive-health
+  - thyroid
+  - bone-joint
+  - allergies
+  - eye-health
+  - ear-nose-throat
+  - dental-health
+  - womens-health
+  - mens-health
+  - child-health
+  - senior-health
+  - pregnancy
+  - immunization
+  - infectious-disease
+  - cancer-awareness
+  - chronic-pain
+  - first-aid
+  - general-wellness
+
+  # ── Injuries & Trauma ───────────────────────────────────
+  - sports-injuries
+  - fractures-sprains
+  - burns-wounds
+  - head-injury
+
+  # ── Organ-Specific / System ─────────────────────────────
+  - kidney-disease
+  - liver-disease
+  - blood-disorders
+  - neurological
+  - urological-health
+
+  # ── Niche / Specialized ─────────────────────────────────
+  - autoimmune
+  - rare-diseases
+  - genetic-conditions
+  - endocrine-disorders
+  - tropical-diseases
+  - poisoning-toxicology

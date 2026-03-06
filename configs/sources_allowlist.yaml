@@ -1,0 +1,165 @@
+# ============================================================
+# Verified Health Content — Trusted Sources Allowlist
+# ============================================================
+# ONLY content from these sources will be ingested and shown.
+# To add a source, append it to the appropriate list below.
+
+trusted_domains:
+  # ── International: Official Health Organizations ──────────
+  - nhs.uk
+  - cdc.gov
+  - who.int
+  - nih.gov
+  - mayoclinic.org
+  - medlineplus.gov
+  - hopkinsmedicine.org
+  - clevelandclinic.org
+  - health.harvard.edu
+  - heart.org            # American Heart Association
+  - cancer.org           # American Cancer Society
+  - diabetes.org         # American Diabetes Association
+  - lung.org             # American Lung Association
+  - aap.org              # American Academy of Pediatrics
+  - acog.org             # American College of OB/GYN
+  - kidshealth.org
+  - uclahealth.org
+  - stanfordhealthcare.org
+  - mountsinai.org
+  - massgeneral.org
+  - bmj.com
+  - thelancet.com
+  - medscape.com
+  - nejm.org
+  - jamanetwork.com
+  # ── International: Specialty Institutes ───────────────────
+  - orthoinfo.aaos.org   # American Academy of Orthopaedic Surgeons
+  - ninds.nih.gov         # National Institute of Neurological Disorders
+  - niddk.nih.gov         # National Institute of Diabetes & Digestive & Kidney
+  - nhlbi.nih.gov         # National Heart, Lung, and Blood Institute
+  - nei.nih.gov           # National Eye Institute
+  - niaid.nih.gov         # National Institute of Allergy & Infectious Diseases
+  - rarediseases.org      # National Organization for Rare Disorders
+
+  # ── India: Central Government ────────────────────────────
+  - nhp.gov.in            # National Health Portal
+  - mohfw.gov.in          # Ministry of Health & Family Welfare
+  - nhm.gov.in            # National Health Mission
+  - icmr.gov.in           # Indian Council of Medical Research
+  - main.icmr.nic.in      # ICMR alternate domain
+  - fssai.gov.in          # Food Safety & Standards Authority
+
+  # ── India: Premier Medical Institutes ────────────────────
+  - aiims.edu             # All India Institute of Medical Sciences
+  - pgimer.edu.in         # PGIMER Chandigarh
+  - nimhans.ac.in         # NIMHANS Bangalore
+  - jipmer.edu.in         # JIPMER Puducherry
+
+  # ── India: Major Hospital Chains ─────────────────────────
+  - apollohospitals.com   # Apollo Hospitals
+  - fortishealthcare.com  # Fortis Healthcare
+  - medanta.org           # Medanta - The Medicity
+  - maxhealthcare.in      # Max Healthcare
+  - narayanahealth.org    # Narayana Health
+
+trusted_rss:
+  - url: https://www.cdc.gov/rss/index.xml
+    name: CDC News
+    source_tier: verified_org
+  - url: https://www.who.int/rss-feeds/news-english.xml
+    name: WHO News
+    source_tier: verified_org
+  - url: https://www.nih.gov/news-releases/feed
+    name: NIH News Releases
+    source_tier: verified_org
+  - url: https://tools.cdc.gov/podcasts/feed.asp?feedid=183
+    name: CDC Podcasts
+    source_tier: verified_org
+  - url: https://newsnetwork.mayoclinic.org/feed/
+    name: Mayo Clinic News Network
+    source_tier: verified_org
+  - url: https://www.england.nhs.uk/news/feed/
+    name: NHS England News
+    source_tier: verified_org
+  - url: https://www.ama-assn.org/taxonomy/term/category/news/feed
+    name: American Medical Association
+    source_tier: verified_org
+
+trusted_youtube_channels:
+  - channel_id: UCN-SA8LHMdOsyGOB5-iglng
+    name: Mayo Clinic
+    source_tier: verified_org
+  - channel_id: UCJgUjBMBUmm_SkrSdSrE3Q
+    name: Cleveland Clinic
+    source_tier: verified_org
+  - channel_id: UC3w5AeTSUlmcEMjFaqvbMwg
+    name: Johns Hopkins Medicine
+    source_tier: verified_org
+  - channel_id: UCD5GnHEFVoyg_wjc7I7E7Tg
+    name: NHS
+    source_tier: verified_org
+#   - channel_id: UCbDhG-4RMposRMeYYoBKiMA
+#     name: Doctor Mike
+#     source_tier: verified_creator
+  - channel_id: UCYdMwWmEME_OhYECaVNkVhg
+    name: Kurzgesagt – In a Nutshell
+    source_tier: verified_creator
+  - channel_id: UCryGvc9ewcbEqjMiWgFiD2g
+    name: Osmosis from Elsevier
+    source_tier: verified_creator
+  - channel_id: UCG-iSYKl_v6RwPEAoMRkMEg
+    name: MedCram
+    source_tier: verified_creator
+#   - channel_id: UC6QYFutt9cluQ3uSM963_KQ
+#     name: Ninja Nerd
+#     source_tier: verified_creator
+  - channel_id: UC3_R11R6_tq_UvVw2J5g58w
+    name: Harvard Medical School
+    source_tier: verified_org
+  - channel_id: UC07-dOwgza1IguKA86jqxNA
+    name: World Health Organization (WHO)
+    source_tier: verified_org
+  - channel_id: UCE_M8A5yxnLfW0wghD1GkMg
+    name: Stanford Medicine
+    source_tier: verified_org
+  - channel_id: UCzP05h_1kR5N9L0I5A1FfNg
+    name: Boston Children's Hospital
+    source_tier: verified_org
+  - channel_id: UC32eP1rF-vA-8WvV3wX8H8A
+    name: American Medical Association
+    source_tier: verified_org
+
+# Source tiers:
+#   verified_org     — Official health organization
+#   verified_creator — Vetted medical professional / edu creator
+
+trusted_instagram_creators:
+  - handle: dr.karanrajan
+    name: Dr. Karan Rajan
+    source_tier: verified_creator
+  - handle: drjulie
+    name: Dr. Julie Smith
+    source_tier: verified_creator
+  - handle: seethemedlife
+    name: Dr. Adam Goodcoff
+    source_tier: verified_creator
+  - handle: yourheartdoc
+    name: Ali Haider
+    source_tier: verified_creator
+  - handle: dr.kaydo
+    name: Dr. Kaydo
+    source_tier: verified_creator
+  - handle: dr.rakshitasingh
+    name: Dr. Rakshita Singh Bangar
+    source_tier: verified_creator
+  - handle: dr_cuterus
+    name: Dr. Tanaya Narendra
+    source_tier: verified_creator
+  - handle: dr.soniyagupta
+    name: Dr. Soniya Gupta
+    source_tier: verified_creator
+  - handle: dr.angelapharmd
+    name: Dr. Angela PharmD
+    source_tier: verified_creator
+  - handle: doctor.mike
+    name: Doctor Mike
+    source_tier: verified_creator

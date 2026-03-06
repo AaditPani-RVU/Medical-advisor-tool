@@ -1,0 +1,213 @@
+# ============================================================
+# Verified Health Content — Specialist Type Navigation Map
+# ============================================================
+# Maps topic/symptom clusters to specialist categories.
+# Used for NAVIGATION only — NOT diagnosis.
+# Language: "This topic is commonly handled by ..."
+
+default_specialist: Primary Care Physician
+
+mappings:
+  heart-health:
+    specialists:
+      - Cardiologist
+      - Emergency Medicine (if chest pain / emergency symptoms)
+    note: "Heart-related topics are commonly handled by a cardiologist."
+
+  diabetes:
+    specialists:
+      - Endocrinologist
+    note: "Diabetes and blood sugar management topics are commonly handled by an endocrinologist."
+
+  thyroid:
+    specialists:
+      - Endocrinologist
+    note: "Thyroid-related topics are commonly handled by an endocrinologist."
+
+  respiratory:
+    specialists:
+      - Pulmonologist
+    note: "Respiratory and lung-related topics are commonly handled by a pulmonologist."
+
+  skin-conditions:
+    specialists:
+      - Dermatologist
+    note: "Skin-related topics are commonly handled by a dermatologist."
+
+  digestive-health:
+    specialists:
+      - Gastroenterologist
+    note: "Digestive health topics are commonly handled by a gastroenterologist."
+
+  mental-health:
+    specialists:
+      - Psychiatrist
+      - Psychologist
+    note: "Mental health topics are commonly handled by a psychiatrist or psychologist."
+
+  bone-joint:
+    specialists:
+      - Orthopedic Specialist
+      - Rheumatologist
+    note: "Bone and joint topics are commonly handled by an orthopedic specialist or rheumatologist."
+
+  eye-health:
+    specialists:
+      - Ophthalmologist
+    note: "Eye health topics are commonly handled by an ophthalmologist."
+
+  ear-nose-throat:
+    specialists:
+      - ENT Specialist (Otolaryngologist)
+    note: "Ear, nose, and throat topics are commonly handled by an ENT specialist."
+
+  dental-health:
+    specialists:
+      - Dentist
+    note: "Dental topics are commonly handled by a dentist."
+
+  womens-health:
+    specialists:
+      - OB/GYN
+    note: "Women's health topics are commonly handled by an OB/GYN."
+
+  pregnancy:
+    specialists:
+      - OB/GYN
+      - Maternal-Fetal Medicine Specialist
+    note: "Pregnancy-related topics are commonly handled by an OB/GYN."
+
+  allergies:
+    specialists:
+      - Allergist / Immunologist
+    note: "Allergy topics are commonly handled by an allergist."
+
+  cancer-awareness:
+    specialists:
+      - Oncologist
+    note: "Cancer-related topics are commonly handled by an oncologist."
+
+  child-health:
+    specialists:
+      - Pediatrician
+    note: "Child health topics are commonly handled by a pediatrician."
+
+  senior-health:
+    specialists:
+      - Geriatrician
+    note: "Senior health topics are commonly handled by a geriatrician."
+
+  chronic-pain:
+    specialists:
+      - Pain Management Specialist
+      - Neurologist
+    note: "Chronic pain topics are commonly handled by a pain management specialist."
+
+  infectious-disease:
+    specialists:
+      - Infectious Disease Specialist
+    note: "Infectious disease topics are commonly handled by an infectious disease specialist."
+
+  nutrition:
+    specialists:
+      - Registered Dietitian
+      - Primary Care Physician
+    note: "Nutrition topics are commonly handled by a registered dietitian."
+
+  sleep:
+    specialists:
+      - Sleep Medicine Specialist
+    note: "Sleep-related topics are commonly handled by a sleep medicine specialist."
+
+  # ── New: Injuries & Trauma ──────────────────────────────
+
+  sports-injuries:
+    specialists:
+      - Sports Medicine Physician
+      - Orthopedic Specialist
+    note: "Sports injury topics are commonly handled by a sports medicine physician or orthopedic specialist."
+
+  fractures-sprains:
+    specialists:
+      - Orthopedic Specialist
+      - Emergency Medicine
+    note: "Fracture and sprain topics are commonly handled by an orthopedic specialist."
+
+  burns-wounds:
+    specialists:
+      - Burn Specialist / Plastic Surgeon
+      - Emergency Medicine
+    note: "Burn and wound topics are commonly handled by a burn specialist or emergency physician."
+
+  head-injury:
+    specialists:
+      - Neurologist
+      - Neurosurgeon
+      - Emergency Medicine
+    note: "Head injury topics are commonly handled by a neurologist or neurosurgeon. Seek emergency care for acute injuries."
+
+  # ── New: Organ-Specific / System ────────────────────────
+
+  kidney-disease:
+    specialists:
+      - Nephrologist
+    note: "Kidney-related topics are commonly handled by a nephrologist."
+
+  liver-disease:
+    specialists:
+      - Hepatologist
+      - Gastroenterologist
+    note: "Liver-related topics are commonly handled by a hepatologist or gastroenterologist."
+
+  blood-disorders:
+    specialists:
+      - Hematologist
+    note: "Blood disorder topics are commonly handled by a hematologist."
+
+  neurological:
+    specialists:
+      - Neurologist
+      - Neurosurgeon
+    note: "Neurological topics are commonly handled by a neurologist."
+
+  urological-health:
+    specialists:
+      - Urologist
+    note: "Urological health topics are commonly handled by a urologist."
+
+  # ── New: Niche / Specialized ────────────────────────────
+
+  autoimmune:
+    specialists:
+      - Rheumatologist
+      - Immunologist
+    note: "Autoimmune condition topics are commonly handled by a rheumatologist or immunologist."
+
+  rare-diseases:
+    specialists:
+      - Medical Geneticist
+      - Relevant Organ Specialist
+    note: "Rare disease topics may require a medical geneticist or relevant specialist."
+
+  genetic-conditions:
+    specialists:
+      - Medical Geneticist
+      - Genetic Counselor
+    note: "Genetic condition topics are commonly handled by a medical geneticist or genetic counselor."
+
+  endocrine-disorders:
+    specialists:
+      - Endocrinologist
+    note: "Endocrine disorder topics are commonly handled by an endocrinologist."
+
+  tropical-diseases:
+    specialists:
+      - Infectious Disease Specialist
+      - Tropical Medicine Specialist
+    note: "Tropical disease topics are commonly handled by an infectious disease or tropical medicine specialist."
+
+  poisoning-toxicology:
+    specialists:
+      - Toxicologist
+      - Emergency Medicine
+    note: "Poisoning and toxicology topics are commonly handled by a toxicologist or emergency physician."

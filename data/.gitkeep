@@ -1,0 +1,2 @@
+# This directory stores the SQLite database, cache, and raw ingested content.
+# Created automatically by init_db.py

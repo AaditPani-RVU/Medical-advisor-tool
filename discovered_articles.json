@@ -1,0 +1,382 @@
+[
+  {
+    "url": "https://www.nhs.uk/conditions/diabetes/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/asthma/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/high-blood-pressure-hypertension/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/arthritis/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/depression/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/migraine/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/back-pain/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/allergies/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/obesity/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/flu/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/common-cold/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/pneumonia/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/bronchitis/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/chickenpox/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/measles/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/tuberculosis/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/malaria/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/dengue/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/cholera/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/typhoid/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/hepatitis-a/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/hepatitis-b/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/hepatitis-c/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/hiv-aids/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/syphilis/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/gonorrhoea/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/chlamydia/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/herpes/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/scabies/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/head-lice/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/ringworm/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/eczema/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/psoriasis/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/acne/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/rosacea/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/vitiligo/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/glaucoma/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/cataracts/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/macular-degeneration/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/conjunctivitis/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/ear-infection/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/tinnitus/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/vertigo/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/hearing-loss/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/tonsillitis/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/strep-throat/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/sinusitis/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/laryngitis/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/sleep-apnoea/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/insomnia/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/epilepsy/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/parkinsons-disease/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/alzheimers-disease/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/multiple-sclerosis/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/stroke/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/heart-attack/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/angina/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/heart-failure/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/deep-vein-thrombosis/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/pulmonary-embolism/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/varicose-veins/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/haemorrhoids/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/anaemia/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/leukaemia/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/lymphoma/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/myeloma/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/haemophilia/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/sickle-cell-disease/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/peptic-ulcer/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/coeliac-disease/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/crohns-disease/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/ulcerative-colitis/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/irritable-bowel-syndrome/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/gallstones/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/pancreatitis/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.nhs.uk/conditions/appendicitis/",
+    "source_name": "NHS",
+    "source_tier": "verified_org"
+  }
+]

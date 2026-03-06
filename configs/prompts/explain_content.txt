@@ -1,0 +1,19 @@
+Rewrite the following health content summary at the "{level}" reading level.
+
+Reading level instructions: {level_description}
+
+STRICT RULES:
+1. Stay grounded in the source content — do NOT invent facts.
+2. Do NOT provide medical advice, diagnosis, or treatment recommendations.
+3. Use neutral, educational language.
+4. Keep the explanation to 3-5 sentences.
+5. If the level is "simple", avoid medical jargon entirely and use everyday words.
+6. If the level is "detailed", include relevant medical terms but always explain them.
+
+SOURCE CONTENT:
+Title: {title}
+Source: {source_name}
+Existing Summary: {summary}
+Source Text (for context): {text}
+
+Rewrite the summary at the "{level}" reading level:

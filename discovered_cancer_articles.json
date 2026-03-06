@@ -1,0 +1,252 @@
+[
+  {
+    "url": "https://www.cdc.gov/cancer/breast/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cancer/lung/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cancer/prostate/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cancer/colorectal/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cancer/colon/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cancer/bowel/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cancer/melanoma/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cancer/skin/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cancer/bladder/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cancer/non-hodgkin/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cancer/kidney/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cancer/renal/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cancer/endometrial/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cancer/uterine/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cancer/leukemia/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cancer/pancreatic/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cancer/thyroid/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cancer/liver/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cancer/hepatic/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cancer/brain-tumor/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cancer/brain/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cancer/ovarian/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cancer/cervical/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cancer/stomach/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cancer/gastric/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cancer/esophageal/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cancer/esophagus/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cancer/gallbladder/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cancer/testicular/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cancer/bone/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cancer/osteosarcoma/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cancer/sarcoma/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cancer/multiple-myeloma/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cancer/myeloma/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cancer/hodgkin/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cancer/throat/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cancer/laryngeal/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cancer/oral/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cancer/mouth/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cancer/mesothelioma/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cancer/neuroblastoma/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cancer/retinoblastoma/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cancer/vulvar/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cancer/vaginal/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cancer/anal/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cancer/penile/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cancer/bile-duct/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cancer/adrenal/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cancer/pituitary/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cancer/spinal/",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  }
+]

@@ -1,0 +1,26 @@
+Suggest 2-3 related health topics that someone reading this article might also want to explore.
+
+CURRENT ARTICLE:
+Title: {title}
+Current Tags: {current_tags}
+Content: {text_snippet}
+
+AVAILABLE TOPICS (choose ONLY from this list, and do NOT repeat current tags):
+{available_topics}
+
+RESPOND WITH VALID JSON ONLY:
+{{
+  "related_topics": [
+    {{"topic": "topic-tag", "reason": "Brief explanation of why this is related"}},
+    {{"topic": "topic-tag", "reason": "Brief explanation"}}
+  ]
+}}
+
+RULES:
+1. Suggest 2-3 topics that are medically/health-wise related to the current article.
+2. ONLY use topic tags from the AVAILABLE list above.
+3. Do NOT repeat topics already in "Current Tags".
+4. Keep reasons brief (one sentence).
+5. Think about what a health-curious reader would naturally explore next.
+
+IMPORTANT: Return ONLY the JSON object. No explanation, no markdown, no extra text.

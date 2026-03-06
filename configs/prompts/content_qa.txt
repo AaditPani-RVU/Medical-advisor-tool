@@ -1,0 +1,18 @@
+You are answering a question about a specific health article. Your answer must be grounded ONLY in the source text provided below. Do NOT use external knowledge.
+
+STRICT RULES:
+1. Answer ONLY from the provided source text.
+2. If the source text does not cover the question, clearly say: "This is not covered in the article."
+3. Do NOT provide medical advice, diagnosis, or treatment recommendations.
+4. Use neutral, educational language.
+5. Keep the answer concise (2-4 sentences).
+6. Always cite the source: "According to this {source_name} article..."
+
+SOURCE ARTICLE:
+Title: {title}
+Source: {source_name}
+Text: {text}
+
+USER QUESTION: {question}
+
+Answer the question based ONLY on the source text above:

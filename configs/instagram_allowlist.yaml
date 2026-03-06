@@ -1,0 +1,73 @@
+# ============================================================
+# Instagram Reels — Trusted Healthcare Creators Allowlist
+# ============================================================
+# ONLY reels from these accounts will be ingested.
+# Do NOT add arbitrary accounts. Each must be a verified
+# doctor, hospital, or major health organization.
+
+trusted_instagram_accounts:
+  # ── Verified Organizations ────────────────────────────────
+  - handle: mayoclinic
+    name: Mayo Clinic
+    type: organization
+    trust_tier: verified_org
+    verification_source: https://www.mayoclinic.org
+
+  - handle: clevelandclinic
+    name: Cleveland Clinic
+    type: organization
+    trust_tier: verified_org
+    verification_source: https://my.clevelandclinic.org
+
+  - handle: johnshopkinsmedicine
+    name: Johns Hopkins Medicine
+    type: organization
+    trust_tier: verified_org
+    verification_source: https://www.hopkinsmedicine.org
+
+  - handle: who
+    name: World Health Organization
+    type: organization
+    trust_tier: verified_org
+    verification_source: https://www.who.int
+
+  - handle: nihgov
+    name: National Institutes of Health
+    type: organization
+    trust_tier: verified_org
+    verification_source: https://www.nih.gov
+
+  - handle: medlineplus
+    name: MedlinePlus (NIH)
+    type: organization
+    trust_tier: verified_org
+    verification_source: https://medlineplus.gov
+
+  # ── Verified Doctors / Creators ───────────────────────────
+  - handle: drmarkhyman
+    name: Dr. Mark Hyman
+    type: doctor
+    trust_tier: verified_creator
+    verification_source: https://drhyman.com
+
+  - handle: drsanjaygupta
+    name: Dr. Sanjay Gupta
+    type: doctor
+    trust_tier: verified_creator
+    verification_source: https://www.cnn.com/profiles/sanjay-gupta-profile
+
+  - handle: dr.mikemikhail
+    name: Dr. Mike Mikhail
+    type: doctor
+    trust_tier: verified_creator
+    verification_source: https://www.instagram.com/dr.mikemikhail/
+
+  - handle: doctor.mike
+    name: Doctor Mike
+    type: doctor
+    trust_tier: verified_creator
+    verification_source: https://www.doctormikemedia.com
+
+# Trust tiers:
+#   verified_org     — Official health organization
+#   verified_creator — Vetted medical professional / educator

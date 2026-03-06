@@ -1,0 +1,372 @@
+[
+  {
+    "url": "https://www.cdc.gov/diabetes/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/asthma/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/heart-disease/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/arthritis/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/depression/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/migraine/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/back-pain/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/allergies/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/obesity/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/flu/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/common-cold/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/pneumonia/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/bronchitis/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/chickenpox/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/measles/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/tuberculosis/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/malaria/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/dengue/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cholera/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/typhoid/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/hepatitis/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/hiv/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/syphilis/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/gonorrhea/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/chlamydia/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/herpes/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/scabies/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/head-lice/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/ringworm/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/eczema/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/psoriasis/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/acne/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/rosacea/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/vitiligo/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/glaucoma/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/cataracts/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/macular-degeneration/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/conjunctivitis/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/ear-infection/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/tinnitus/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/vertigo/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/hearing-loss/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/tonsillitis/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/strep-throat/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/sinusitis/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/laryngitis/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/sleep-apnea/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/insomnia/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/epilepsy/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/parkinsons-disease/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/alzheimers-disease/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/multiple-sclerosis/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/stroke/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/heart-attack/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/angina/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/heart-failure/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/dvt/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/pulmonary-embolism/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/varicose-veins/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/hemorrhoids/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/anemia/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/leukemia/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/lymphoma/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/myeloma/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/hemophilia/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/sickle-cell-disease/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/peptic-ulcer/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/celiac-disease/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/crohns-disease/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/ulcerative-colitis/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/ibs/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/gallstones/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/pancreatitis/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  },
+  {
+    "url": "https://www.cdc.gov/appendicitis/about/index.html",
+    "source_name": "CDC",
+    "source_tier": "verified_org"
+  }
+]
