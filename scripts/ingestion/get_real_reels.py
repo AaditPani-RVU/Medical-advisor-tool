@@ -58,7 +58,7 @@ for d in DISEASES:
         break
     time.sleep(1)
 
-with open("discovered_real_reels.json", "w") as f:
+with open("d:/verified-healthcare-content-reccomender/data/raw_ingest/discovered_real_reels.json", "w") as f:
     json.dump(reels, f, indent=2)
 
 print(f"Saved {len(reels)} reels!")

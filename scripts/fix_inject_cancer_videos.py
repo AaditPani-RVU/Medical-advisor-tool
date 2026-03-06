@@ -4,7 +4,7 @@ by appending to CUSTOM_SEED_VIDEOS list. Strips newlines & cleans titles safely.
 """
 import json
 
-JSON_PATH = 'd:/verified-healthcare-content-reccomender/discovered_cancer_videos.json'
+JSON_PATH = 'd:/verified-healthcare-content-reccomender/data/raw_ingest/discovered_cancer_videos.json'
 FETCH_PATH = 'd:/verified-healthcare-content-reccomender/backend/ingest/fetch_youtube.py'
 
 with open(JSON_PATH, 'r', encoding='utf-8') as f:

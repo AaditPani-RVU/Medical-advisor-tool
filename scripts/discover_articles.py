@@ -47,7 +47,7 @@ with requests.Session() as session:
 
 print(f"Validated {len(results)} valid NHS articles.")
 
-with open("discovered_articles.json", "w") as f:
+with open("d:/verified-healthcare-content-reccomender/data/raw_ingest/discovered_articles.json", "w") as f:
     json.dump(results, f, indent=2)
 
 print("Saved to discovered_articles.json")

@@ -126,7 +126,7 @@ def _get_transcript(video_id: str) -> str | None:
         return None
 '''
 
-with open('d:/verified-healthcare-content-reccomender/discovered_videos.json', 'r', encoding='utf-8') as f:
+with open('d:/verified-healthcare-content-reccomender/data/raw_ingest/discovered_videos.json', 'r', encoding='utf-8') as f:
     custom_videos = json.load(f)
 
 # Convert to python code string

@@ -60,7 +60,7 @@ for c in cancers:
         time.sleep(1)
 
 print(f"Discovered {len(results)} videos.")
-with open("discovered_cancer_videos.json", "w") as f:
+with open("d:/verified-healthcare-content-reccomender/data/raw_ingest/discovered_cancer_videos.json", "w") as f:
     json.dump(results, f, indent=2)
 
 print("Saved to discovered_cancer_videos.json")

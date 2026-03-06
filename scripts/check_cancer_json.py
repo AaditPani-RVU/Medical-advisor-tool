@@ -1,6 +1,6 @@
 import json, os
 
-fpath = 'd:/verified-healthcare-content-reccomender/discovered_cancer_videos.json'
+fpath = 'd:/verified-healthcare-content-reccomender/data/raw_ingest/discovered_cancer_videos.json'
 if not os.path.exists(fpath):
     print("File NOT found:", fpath)
 else:

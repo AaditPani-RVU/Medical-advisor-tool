@@ -22,7 +22,7 @@ for c in cancers:
         "source_tier": "verified_org"
     })
 
-with open("d:/verified-healthcare-content-reccomender/discovered_cancer_articles.json", "w") as f:
+with open("d:/verified-healthcare-content-reccomender/data/raw_ingest/discovered_cancer_articles.json", "w") as f:
     json.dump(results, f, indent=2)
 
 print("Generated CDC cancer article links.")

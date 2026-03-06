@@ -65,7 +65,7 @@ for disease in diseases:
         time.sleep(1) # be nice
 
 print(f"Discovered {len(results)} videos.")
-with open("discovered_videos.json", "w") as f:
+with open("d:/verified-healthcare-content-reccomender/data/raw_ingest/discovered_videos.json", "w") as f:
     json.dump(results, f, indent=2)
 
 print("Done. Saved to discovered_videos.json")

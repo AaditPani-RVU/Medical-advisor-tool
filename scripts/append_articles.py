@@ -1,6 +1,6 @@
 import json
 
-with open('d:/verified-healthcare-content-reccomender/discovered_articles.json', 'r') as f:
+with open('d:/verified-healthcare-content-reccomender/data/raw_ingest/discovered_articles.json', 'r') as f:
     new_urls = json.load(f)
 
 with open('d:/verified-healthcare-content-reccomender/backend/ingest/fetch_web.py', 'r') as f:
